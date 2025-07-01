@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swanky Foundation</title>
+
+  <!-- ✅ Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="sheet.js"></script>
+
+   
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  </head>
+  <!-- Bootstrap Icons CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+   <header class="main-header">
+  <nav class="navbar">
+    <div class="logo">Swanky Foundation</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li class="close-btn"><span onclick="closeMenu()">✖️</span></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<!-- ////....HERO SECTION..../// -->
+
+  <section class="hero">
+    <h2>Changing Lives, One Step at a Time</h2>
+    <p>Join us in making the world a better place.</p>
+    <a href="#donate" class="donate-btn">Donate Now</a>
+  </section>
+
+<!-- ////..PHOTO GALLERY SECTION..//// -->
+  <section id="impact">
+  <h2 class="animated-text">We Are Helping!</h2>
+  <p>See our team in action making a difference in communities.</p>
+  <div class="photo-gallery">
+    <img src="/willyfundtion/african-children-enjoying-life.jpg" >
+     <img src="/willyfundtion/african-kid-marketplace (1).jpg" >
+      <img src="/willyfundtion/african-kid-marketplace.jpg" >
+    <img src="/willyfundtion/close-up-community-solidarity-concept.jpg" >
+    <img src="/willyfundtion/little-boy-outdoors-with-camera-toy.jpg" >
+     <img src="/willyfundtion/parents-kids-spending-time-together.jpg" >
+    <img src="/willyfundtion/portrait-little-boy-outdoor.jpg" >
+
+  </div>
+</section>
+
+
+
+  <!-- ////...About Us section...//// -->
+
+<div class="about-section " id="about">
+    <h2>About Us – Swanky Foundation Children’s Home</h2>
+
+    <p>At <strong>Swanky Foundation Children’s Home</strong>, we are more than just a shelter—we are a family. Our mission is to provide a safe, loving, and nurturing environment for vulnerable, orphaned, and abandoned children, helping them heal, grow, and thrive.</p>
+
+    <h3>Who We Are</h3>
+    <p>Swanky Foundation Children’s Home is a non-profit, community-based organization dedicated to rescuing and supporting children in need. We believe that every child deserves to grow up in a secure environment where they are protected, valued, and given the opportunity to reach their full potential.</p>
+
+    <h3>What We Do</h3>
+    <ul>
+      <li><strong>Shelter & Basic Needs:</strong> Safe accommodation, nutritious meals, and clean clothing.</li>
+      <li><strong>Education:</strong> School enrollment, tutoring, and mentorship support.</li>
+      <li><strong>Health Care:</strong> Medical checkups, treatment, and emotional support.</li>
+      <li><strong>Emotional & Spiritual Support:</strong> Counseling and spiritual guidance.</li>
+      <li><strong>Life Skills & Talent Development:</strong> Music, art, sports, and vocational training.</li>
+    </ul>
+
+    <h3>Our Approach</h3>
+    <p>We run like a true family. Every child is treated with love and dignity. We collaborate with social workers, guardians, and donors to ensure each child’s well-being. Transparency and accountability are at the heart of what we do.</p>
+
+    <h3>Our Vision</h3>
+    <p>To raise a generation of responsible, educated, and empowered children who will become agents of change in their communities.</p>
+
+    <h3>Our Mission</h3>
+    <p>To rescue, protect, and raise children in a loving, faith-based home, equipping them with the tools they need to live fulfilling and independent lives.</p>
+
+    <h3>Be Part of the Swanky Family</h3>
+    <ul>
+      <li>Sponsor a child’s education or care</li>
+      <li>Donate clothes, food, or school supplies</li>
+      <li>Volunteer your time and skills</li>
+      <li>Help spread the word about our mission</li>
+    </ul>
+
+    <p>Together, we can restore hope and create a future full of possibilities for children in need.</p>
+  </div>
+
+ <!-- ////...Projects section...  -->
+<section class="projects-section " id="projects">
+  <h2>Our Projects</h2>
+
+  <h3>1. Feeding Program</h3>
+  <p>Our children receive nutritious meals daily. We also reach out to children in surrounding communities with food support during outreaches.</p>
+
+  <h3>2. Talent and Skills Development</h3>
+  <p>We nurture children’s talents in music, art, sports, and vocational skills like tailoring, beadwork, and farming to prepare them for life ahead.</p>
+
+  <h3>3. Rescue and Shelter Program</h3>
+  <p>In partnership with community leaders, we rescue orphaned or abandoned children and give them a safe, loving home to grow in.</p>
+
+  <h3>4. Future Dreams Project</h3>
+  <p>We aim to build a fully equipped children’s village with dormitories, classrooms, a clinic, and a playground to accommodate more children.</p>
+
+</section>
+
+
+ <!-- M-Pesa Donation -->
+<section id="donate" class="donation-section">
+  <h2>Support Swanky Foundation</h2>
+  <p class="donation-intro">
+    Your generous donation helps us reach more people in need. You can support us using the following methods:
+  </p>
+
+  <div class="donation-boxes">
+    <div class="donation-box">
+      <h3>📱 MPESA (PayBill)</h3>
+      <p><strong>PayBill Number:</strong> <span>123456</span></p>
+      <p><strong>Account Number:</strong> <span>SWANKY</span></p>
+    </div>
+
+    <div class="donation-box">
+      <h3>🏦 Bank Transfer</h3>
+      <p><strong>Bank Name:</strong> Equity Bank</p>
+      <p><strong>Account Name:</strong> Swanky Foundation</p>
+      <p><strong>Account Number:</strong> 001234567890</p>
+      <p><strong>Branch:</strong> Nairobi CBD</p>
+    </div>
+  </div>
+
+  <p class="thank-you">Thank you for your support! ❤️</p>
+</section>
+
+</div>
+</section>
+
+ <section id="contact">
+  <h2>Contact Us</h2>
+  <p>We’d love to hear from you! Reach us through the channels below:</p>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> swankyfoundation@gmail.com</p>
+    <p><strong>Phone:</strong> +254 712 345 678</p>
+    <p><strong>Location:</strong> Nairobi, Kenya</p>
+  </div>
+
+  <!-- Optional: Contact Form -->
+  <!-- Include SweetAlert2 in your HTML head or before </body> -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <p>Have a question or want to support Swanky Foundation? Send us a message below.</p>
+
+  <form class="contact-form" action="https://formspree.io/f/xovwrdbv" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+</form>
+
+  
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="images/swanky-logo.png" alt="Swanky Foundation" />
+      <p>Swanky Foundation — Changing Lives, One Step at a Time.</p>
+    </div>
+
+    <div class="footer-contact">
+      <p><i class="bi bi-envelope"></i> swankyfoundation@gmail.com</p>
+      <p><i class="bi bi-telephone"></i> +254 712 345 678</p>
+      <p><i class="bi bi-geo-alt"></i> Nairobi, Kenya</p>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="mailto:swankyfoundation@gmail.com"><i class="bi bi-envelope"></i></a>
+      <a href="https://wa.me/254758455817?text=Hello%20Swanky%20Foundation%2C%20I%20would%20like%20to%20donate" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp.png" class="whatsapp-icon" alt="WhatsApp">
+</a>
+
+</a>
+
+    </div>
+  </div>
+<!-- //////.....FOOTER.....///// -->
+  <footer class="site-footer">
+  <p>&copy; 2025 Swanky Foundation. All rights reserved.</p>
+  <p class="designer">
+    Website designed by <strong>Willy Pozeh</strong><br>
+    Contact:
+    <a href="https://wa.me/254758455817?text=Hello%20Willy%2C%20I'm%20interested%20in%20your%20web%20design%20services."
+       class="phone-link"
+       target="_blank">
+      0758455817
+      <img src="https://img.icons8.com/color/24/000000/whatsapp.png" alt="WhatsApp icon" class="whatsapp-footer-icon">
+    </a>
+  </p>
+</footer>
+
+
+  </p>
+</footer>
+
+
+  </div>
+  <script src="script.js"></script>
+</footer>
+<button onclick="scrollToTop()" id="topBtn" title="Go to top">⬆</button>
+
+</body>
+ <style src="sheet.js"></style>
+</html>
+
